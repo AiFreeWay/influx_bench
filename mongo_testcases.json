@@ -21,13 +21,13 @@
     {
         "id": 4,
         "series": 100000,
-        "points_per_series": 36500,
+        "points_per_series": 7300,
         "queries": 1000
     },
     {
         "id": 5,
         "series": 100000,
-        "points_per_series": 36500,
+        "points_per_series": 14600,
         "queries": 1000
     }, 
     {
@@ -39,13 +39,13 @@
     {
         "id": 7,
         "series": 500000,
-        "points_per_series": 36500,
+        "points_per_series": 7300,
         "queries": 1000
     },
     {
         "id": 8,
         "series": 500000,
-        "points_per_series": 36500,
+        "points_per_series": 14600,
         "queries": 1000
     }, 
     {
