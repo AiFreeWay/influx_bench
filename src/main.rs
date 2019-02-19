@@ -1,150 +1,125 @@
+mod influxdb_bench;
+mod mongodb_bench;
+
+
 extern crate influent;
+#[macro_use(bson, doc)]
+extern crate mongodb;
 extern crate rand;
+extern crate serde_json;
 extern crate sha2;
 extern crate time;
 extern crate tokio_core;
 
-use influent::create_client;
-use influent::client::{Client, Credentials};
-use influent::measurement::{Measurement, Value};
-use rand::Rng;
 use sha2::{Sha256, Digest};
-use tokio_core::reactor::Core;
+use serde_json::Value;
+use std::fs::File;
+use std::io::Read;
 
 
-static MEASUREMENT: &str = "table";
-static TAG: &str = "hash";
-static FIELD_ONE: &str = "from";
-static FIELD_TWO: &str = "to";
-static FIELD_THREE: &str = "balance";
+static CONFIG_FILE_PATH: &str = "config.json";
+static INFLUX_TEST_CASES_FILE_PATH: &str = "influx_testcases.json";
+static MONGO_TEST_CASES_FILE_PATH: &str = "mongo_testcases.json";
 
-static SERIES: usize = 10;
-static POINTS_PER_SERIES: usize = 10000;
-static QUERIES: usize = 50000;
-
-struct Executor<'a> {
-    client: &'a Client,
-    reactor: Core,
+pub struct TestCase {
+    id: usize,
+    series: usize,
+    points_per_series: usize,
+    queries: usize
 }
 
-impl<'a> Executor<'a> {
+impl TestCase {
     
-    fn new(client: &'a Client, reactor: Core) -> Executor<'a> {
-        return Executor {
-            client: client,
-            reactor: reactor
+    pub fn new(id: usize, series: usize, points_per_series: usize, queries: usize) -> TestCase {
+        return TestCase {
+            id: id,
+            series: series,
+            points_per_series: points_per_series,
+            queries: queries
         }
     }
     
-    pub fn get_client(&self) -> &Client {
-        return self.client
+    pub fn get_id(&self) -> usize {
+        return self.id
     }
     
-    pub fn get_reactor(&mut self) -> &mut Core {
-        return &mut self.reactor
+    pub fn get_series(&self) -> usize {
+        return self.series
     }
+    
+    pub fn get_points_per_series(&self) -> usize {
+        return self.points_per_series
+    }
+    
+    pub fn get_queries(&self) -> usize {
+        return self.queries
+    }
+}
+
+enum DatabaseType {
+    Influxdb = 1,
+    Mongodb = 2,
 }
 
 fn main() {
-    let credentials = Credentials {
-        username: "root",
-        password: "root",
-        database: "many_points"
-    };
-    let hosts = vec!["http://localhost:8086"];
-    let client = create_client(credentials, hosts);
-    let reactor = Core::new().unwrap();
-    
-    let mut executor = Executor::new(&client, reactor);
-    
-    let tags = insert_points(&mut executor, SERIES, POINTS_PER_SERIES);
-    start_benchmark(&mut executor, tags, QUERIES, POINTS_PER_SERIES);
-}
-
-fn insert_points(executor: &mut Executor, series: usize, points_per_series: usize) -> Vec<String> {
-    let mut tags = Vec::new();
-    if series == 0 {
-        return tags
-    } 
-    
-    let mut rng = rand::thread_rng();
-    
-    for _ in 0..series {
-        let random_number = rng.gen::<usize>();
-        let hash = generate_hash_from_number(&random_number);
-        tags.push(hash.clone());
-        
-        insert_one_point(executor, hash, random_number)
+    match get_database_type() {
+        DatabaseType::Influxdb =>  {
+            let test_cases = get_test_cases(INFLUX_TEST_CASES_FILE_PATH);
+            influxdb_bench::start_benchmark(test_cases)
+        },
+        DatabaseType::Mongodb =>  {
+            let test_cases = get_test_cases(MONGO_TEST_CASES_FILE_PATH);
+            mongodb_bench::start_benchmark(test_cases)
+        },
     }
-    
-    if points_per_series == 0 {
-        return tags
-    } 
-    
-    let points_count = series*(points_per_series-1);
-    let max_tag_pos = series-1;
-    
-    for _ in 0..points_count {
-        let random_number = if max_tag_pos > 0 { rng.gen_range(0, max_tag_pos) } else { 0 };
-        let hash = tags.get(random_number).unwrap();
-        
-        insert_one_point(executor, hash.to_string(), random_number)
-    }  
-    
-    return tags
 }
 
-fn start_benchmark(executor: &mut Executor, tags: Vec<String>, queries: usize, points_per_series: usize) {
-    if tags.len() == 0 {
-        return
-    } 
-    
-    let mut rng = rand::thread_rng();
-    let max_tag_pos = tags.len()-1;
-    let mut queries_time_ms: i32 = 0;
-    
-    for i in 0..queries {
-        let random_number = if max_tag_pos > 0 { rng.gen_range(0, max_tag_pos) } else { 0 };
-        let hash = tags.get(random_number).unwrap();
-        
-        let query = format!("select * from {} where {} = '{}'", MEASUREMENT, TAG, hash);
-        let res = executor.get_client().query(query, None);
-        
-        let start_time = time::now();
-        executor.get_reactor().run(res);
-        let end_time = time::now();
-        
-        let query_time = compute_time_diff_ms(start_time, end_time);
-        queries_time_ms += query_time;
-        let avverag_time: i32 = queries_time_ms/(i+1) as i32;
-        println!("Query №{} avverage time: {} ms, query time: {} ms", i, avverag_time, query_time);
+pub fn compute_time_diff_ms(start_time: time::Tm, end_time: time::Tm) -> i32 {
+    let start_ns = start_time.tm_nsec;
+    let end_ns = end_time.tm_nsec;
+    if start_ns > end_ns {
+        return (start_ns-end_ns)/1000000
     }
-    println!("{} queries for {} ms, {} entities per query", queries, queries_time_ms, points_per_series);
+    return (end_ns-start_ns)/1000000
 }
 
-fn generate_hash_from_number(id: &usize) -> String {
+pub fn generate_hash_from_number(id: &usize) -> String {
     let mut hasher = Sha256::new();
     hasher.input(id.to_string().into_bytes());
     return format!("{:x}", hasher.result())
 }
 
-fn insert_one_point(executor: &mut Executor, hash: String, random_number: usize) {
-    let mut from = hash.clone();
-    let mut to = hash.clone();
-    from.push_str("from");
-    to.push_str("to");
+fn get_database_type() -> DatabaseType {
+    let mut file = File::open(CONFIG_FILE_PATH).expect("Can't open configuration file");
+    let mut contents = String::new();
+    file.read_to_string(&mut contents).expect("Can't read configuration file");
     
-    let mut measurement = Measurement::new(MEASUREMENT);
-    measurement.add_tag(TAG, hash);
-    measurement.add_field(FIELD_ONE, Value::String(&from));
-    measurement.add_field(FIELD_TWO, Value::String(&to));
-    measurement.add_field(FIELD_THREE, Value::Integer(random_number as i64));
-    
-    let res = executor.get_client().write_one(measurement, None);
-    executor.get_reactor().run(res);
+    let json: Value = serde_json::from_str(&contents).expect("Invalid json format");
+    return match json["database_type"].as_u64().expect("Invalid database_type params") {
+        1 => DatabaseType::Influxdb,
+        2 => DatabaseType::Mongodb,
+        _ => panic!("Invalid database_type variant")
+    }
 }
 
-fn compute_time_diff_ms(start_time: time::Tm, end_time: time::Tm) -> i32 {
-    return (end_time.tm_nsec-start_time.tm_nsec)/1000000
+fn get_test_cases(test_case_file_path: &str) -> Vec<TestCase> {
+    let mut file = File::open(test_case_file_path).expect("Can't open influx tests file");
+    let mut contents = String::new();
+    file.read_to_string(&mut contents).expect("Can't read influx tests file");
+    
+    let json: Value = serde_json::from_str(&contents).expect("Invalid influx tests file json format");
+    let mut test_cases = Vec::new();
+    
+    for test_case_json in json["test_cases"].as_array().expect("Invalid influx test_cases array param") {
+        let id = test_case_json["id"].as_u64().expect("Invalid influx test_case id param") as usize;
+        let series = test_case_json["series"].as_u64().expect("Invalid influx test_case id param") as usize;
+        let points_per_series = test_case_json["points_per_series"].as_u64().expect("Invalid influx test_case id param") as usize;
+        let queries = test_case_json["queries"].as_u64().expect("Invalid influx test_case id param") as usize;
+        
+        let test_case = TestCase::new(id, series, points_per_series, queries);
+        test_cases.push(test_case);
+    }
+    
+    return test_cases;
 }
 

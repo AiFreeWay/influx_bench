@@ -1,0 +1,57 @@
+{
+    "test_cases": [
+    {
+        "id": 1,
+        "series": 10000,
+        "points_per_series": 7300,
+        "queries": 1000
+    },
+    {
+        "id": 2,
+        "series": 10000,
+        "points_per_series": 14600,
+        "queries": 1000
+    },
+    {
+        "id": 3,
+        "series": 10000,
+        "points_per_series": 36500,
+        "queries": 1000
+    },
+    {
+        "id": 4,
+        "series": 100000,
+        "points_per_series": 36500,
+        "queries": 1000
+    },
+    {
+        "id": 5,
+        "series": 100000,
+        "points_per_series": 36500,
+        "queries": 1000
+    }, 
+    {
+        "id": 6,
+        "series": 100000,
+        "points_per_series": 36500,
+        "queries": 1000
+    },
+    {
+        "id": 7,
+        "series": 500000,
+        "points_per_series": 36500,
+        "queries": 1000
+    },
+    {
+        "id": 8,
+        "series": 500000,
+        "points_per_series": 36500,
+        "queries": 1000
+    }, 
+    {
+        "id": 9,
+        "series": 500000,
+        "points_per_series": 36500,
+        "queries": 1000
+    }]
+}
