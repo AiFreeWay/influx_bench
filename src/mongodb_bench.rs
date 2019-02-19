@@ -1,6 +1,7 @@
 use {compute_time_diff_ms, generate_hash_from_number, TestCase};
 use mongodb::{Client, ThreadedClient};
 use mongodb::coll::Collection;
+use mongodb::coll::options::IndexOptions;
 use mongodb::db::ThreadedDatabase;
 use rand::Rng;
 
@@ -66,13 +67,16 @@ fn insert_one_record(collection: &Collection, hash: String, random_number: usize
     to.push_str("to");
     
     let doc = doc! {
-        TAG: hash,
+        TAG: hash.clone(),
         FIELD_ONE: from,
         FIELD_TWO: to,
         FIELD_THREE: random_number as u64
     };
     
-    collection.insert_one(doc, None).ok().expect("Failed to insert document.");
+    collection.insert_one(doc.clone(), None).ok().expect("Failed to insert document.");
+    let mut index = IndexOptions::new();
+    index.name = Some(hash);
+    collection.create_index(doc, Some(index));
 }
 
 fn start_testcase(collection: &Collection, tags: Vec<String>, queries: usize, points_per_series: usize) {
