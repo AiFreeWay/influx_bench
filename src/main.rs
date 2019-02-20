@@ -128,14 +128,14 @@ fn insert_points(test_env: &mut TestEnviroment,
     } 
     write_log(&mut test_env.log_file, format_args!("# Begin insert points\n"));   
     
-    let points_count = series*(points_per_series-1);
+    let points_per_series = points_per_series-1;
+    let points_count = series*points_per_series;
     let mut max_tag_pos = series;
     let mut rng = rand::thread_rng();
     let mut tags_series = tags.clone();
     let mut points: Vec<usize> = vec![0; series];
     let data_getter = || {
-        let random_number = if max_tag_pos-1 > 0 { rng.gen_range(0, max_tag_pos-1) } else { 0 };
-        points[random_number] += 1;
+        let random_number = if max_tag_pos > 0 { rng.gen_range(0, max_tag_pos) } else { 0 };
         let hash = tags_series.get(random_number).unwrap().to_string();
         points[random_number] += 1;
         if points[random_number] == points_per_series {
@@ -143,7 +143,6 @@ fn insert_points(test_env: &mut TestEnviroment,
             tags_series.remove(random_number);
             max_tag_pos -= 1;
         }
-        
         return (hash, random_number);
     };
     insert_records(test_env, false, points_count, data_getter);
@@ -160,7 +159,6 @@ fn insert_records<F>(test_env: &mut TestEnviroment,
     let mut queries_time_ms: i32 = 0;
     let log_frequency = iteration_count/500;
     let mut iteration_between_log = 0;
-        
     for i in 0..iteration_count {
         iteration_between_log += 1;
         let (hash, random_number) = data_getter();
