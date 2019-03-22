@@ -4,13 +4,14 @@ use self::rethink_facade::Database;
 use db::reql::errors::Error;
 use db::serde_json;
 use db::serde_json::Value;
+use db::reql::Response;
 use std::collections::HashMap;
 
 
 pub type Args = HashMap<String, String>;
 pub type DBError = Error;
 pub type Table = String;
-pub type Response = Value;
+//pub type Response = Value;
 
 pub fn get_database() -> Result<Box<QueryBase>, DBError> {
     return match Database::new() {
@@ -70,6 +71,8 @@ pub trait QueryBase: Sync {
     fn create_index(&self, table: &str, index: &str) -> Option<DBError>;
     fn insert(&self, request: Request) -> Option<DBError>;
     fn update(&self, request: Request) -> Option<DBError>;
-    fn select(&self, request: Request) -> Result<Response, DBError>;
+    fn select(&self, request: Request) -> Result<Value, DBError>;
     fn delete(&self, request: Request) -> Option<DBError>;
+    
+    fn changes<F>(&self, request: Request, on_each: F) where F: Fn(Result<Response<Value>, Error>);
 }

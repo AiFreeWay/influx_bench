@@ -1,11 +1,11 @@
 use super::*;
 use db::futures::stream::Stream;
-use db::reql::{Config, Connection, Client, Document, IntoArg, Run};
+use db::reql::{Config, Connection, Client, Document, IntoArg, Run, Response};
 use db::reql::errors::{Error, DriverError};
 use std::sync::Arc;
 
 
-pub type Response = Option<Result<Option<Document<Value>>, Error>>;
+pub type ResponseRaw = Option<Result<Option<Document<Value>>, Error>>;
 
 pub struct Database {
     client: Client,
@@ -24,7 +24,7 @@ impl Database {
         })
     }
     
-    fn map_response_to_json(response: Response) -> Result<Value, DBError> {
+    fn map_response_to_json(response: ResponseRaw) -> Result<Value, DBError> {
         let err = Error::Driver(Arc::new(DriverError::Other("Empty response".to_string())));
         return response.ok_or(err.clone())
             .and_then(|response_res| response_res)
@@ -50,7 +50,7 @@ impl QueryBase for Database {
     }
     
     fn create_index(&self, table: &str, index: &str) -> Option<DBError> {
-        //r.table('comments').indexCreate('postId').run(conn, callback)
+        //r.table(table).indexCreate('postId').run(conn, callback)
         None
     }
     
@@ -90,5 +90,15 @@ impl QueryBase for Database {
             .run::<Value>(self.connection)
             .map(|request| request.wait().next())
             .err();
+    }
+    
+    fn changes<F>(&self, request: Request, on_each: F)
+        where F: Fn(Result<Response<Value>, Error>) {
+            
+        self.client
+            .table(&request.table)
+            .filter(request.condition_to_json())
+            .run::<Value>(self.connection)
+            .for_each(on_each);
     }
 }

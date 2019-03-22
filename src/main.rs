@@ -81,6 +81,7 @@ enum DatabaseType {
     InfluxOnlyBench = 4,
 }
 
+/*
 fn main() {
     match get_database_type() {
         DatabaseType::Influxdb => {
@@ -142,7 +143,11 @@ fn main() {
         },   
     }
 }
+*/
 
+fn main() {
+    ExecutorRethink::new().start_listeners();
+}
 
 pub fn start_benchmark(db_name: String, executor: &mut Executor, test_cases: Vec<TestCase>) {
     for test_case in test_cases {
