@@ -1,9 +1,10 @@
-use {compute_time_diff_ms, Executor, get_current_time};
+use {compute_time_diff_ms, Executor, get_current_time, parse_query};
 use influent::create_client;
 use influent::client::{Client, Credentials};
 use influent::client::http::HttpClient;
 use influent::measurement::{Measurement, Value};
 use tokio_core::reactor::Core;
+use rand::Rng;
 
 
 static MEASUREMENT: &str = "accounts";
@@ -33,6 +34,38 @@ impl<'a> ExecutorInflux<'a> {
             reactor: reactor,
             client: client
         }
+    }
+    
+    pub fn get_hashes(&mut self) -> Vec<String> {
+        let mut rng = rand::thread_rng();
+        let mut tags = Vec::new();
+        let mut offset = 0;
+        let hashes = 1000;
+        let mut i = 0;
+        
+        while tags.len() < hashes {
+            let random_number = rng.gen_range(1, 10000);
+            if offset > 50000000 {
+                offset = 0;
+            }
+            offset = offset + random_number;
+            let query = format!("select \"from\" from {} limit 1 offset {}", MEASUREMENT, offset);
+            let request = self.client.query(query, None);
+            let result = self.reactor.run(request);
+            
+            match result {
+                Ok(value) => {
+                    let result = parse_query(value);
+                    if !tags.contains(&result) {
+                        i = i+1;
+                        tags.push(result);
+                        println!("{} from {}", i, hashes);
+                    }
+                }, 
+                _ => {},
+            };
+        }
+        return tags
     }
 }
 

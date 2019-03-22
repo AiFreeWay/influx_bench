@@ -1,0 +1,29 @@
+# Begin insert series
+Insert query; average time: 100 ms, query time: 100 ms
+Insert query; average time: 92 ms, query time: 85 ms
+Insert query; average time: 89 ms, query time: 84 ms
+Insert query; average time: 85 ms, query time: 71 ms
+Insert query; average time: 84 ms, query time: 83 ms
+Insert query; average time: 82 ms, query time: 71 ms
+Insert query; average time: 82 ms, query time: 84 ms
+Insert query; average time: 81 ms, query time: 71 ms
+Insert query; average time: 80 ms, query time: 71 ms
+Insert query; average time: 79 ms, query time: 72 ms
+# Insert 10 queries for 792 ms
+# Begin insert points
+Insert query; average time: 34 ms, query time: 34 ms
+Insert query; average time: 35 ms, query time: 36 ms
+Insert query; average time: 35 ms, query time: 35 ms
+Insert query; average time: 38 ms, query time: 47 ms
+Insert query; average time: 39 ms, query time: 47 ms
+Insert query; average time: 41 ms, query time: 48 ms
+Insert query; average time: 42 ms, query time: 48 ms
+Insert query; average time: 42 ms, query time: 47 ms
+Insert query; average time: 43 ms, query time: 47 ms
+Insert query; average time: 43 ms, query time: 47 ms
+# Insert 10 queries for 436 ms
+# Begin select queries
+Select query №0 average time: 3 ms, query time: 3 ms
+Select query №1 average time: 4 ms, query time: 6 ms
+Select query №2 average time: 3 ms, query time: 2 ms
+# Select 3 queries for 11 ms, 2 entities per query

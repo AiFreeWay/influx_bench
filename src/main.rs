@@ -1,5 +1,7 @@
 mod influxdb_bench;
 mod mongodb_bench;
+mod rethinkdb_bench;
+mod db;
 
 
 extern crate influent;
@@ -8,10 +10,12 @@ extern crate mongodb;
 extern crate rand;
 extern crate serde_json;
 extern crate sha2;
-extern crate tokio_core;
+extern crate tokio_core; 
+
 
 use influxdb_bench::ExecutorInflux;
 use mongodb_bench::ExecutorMongo;
+use rethinkdb_bench::ExecutorRethink;
 use sha2::{Sha256, Digest};
 use serde_json::Value;
 use std::fmt::Arguments;
@@ -24,6 +28,7 @@ use rand::Rng;
 static CONFIG_FILE_PATH: &str = "config.json";
 static INFLUX_TEST_CASES_FILE_PATH: &str = "influx_testcases.json";
 static MONGO_TEST_CASES_FILE_PATH: &str = "mongo_testcases.json";
+static RETHINK_TEST_CASES_FILE_PATH: &str = "rethink_testcases.json";
 
 pub trait Executor {
     fn insert(&mut self, hash: String, random_number: usize) -> i32;
@@ -38,9 +43,7 @@ pub struct TestCase {
 }
 
 impl TestCase {
-    
     pub fn new(id: usize,series: usize, points_per_series: usize, queries: usize) -> TestCase {
-
         return TestCase {
             id: id,
             series: series,
@@ -74,6 +77,8 @@ pub struct TestEnviroment<'a> {
 enum DatabaseType {
     Influxdb = 1,
     Mongodb = 2,
+    Rethinkdb = 3,
+    InfluxOnlyBench = 4,
 }
 
 fn main() {
@@ -90,6 +95,51 @@ fn main() {
             println!("# Start MongoDB benchmark");
             start_benchmark(String::from("MongoDB"), executor, test_cases);
         },
+        DatabaseType::Rethinkdb => {
+            let executor = &mut ExecutorRethink::new();
+            let test_cases = get_test_cases(RETHINK_TEST_CASES_FILE_PATH);
+            println!("# Start RethinkDB benchmark");
+            start_benchmark(String::from("RethinkDB"), executor, test_cases);
+        },
+        DatabaseType::InfluxOnlyBench => {
+            println!("# Start InfluxBD, only benchmark");
+            let mut executor = ExecutorInflux::new();
+            let tags = executor.get_hashes();    
+            let mut log_file = File::create(format!("influx_only_bench.txt"))
+                .expect("Can't create log file");
+            let mut test_env = TestEnviroment { executor: &mut executor, log_file: log_file };
+            
+            
+            let queries = 1000;
+            write_log(&mut test_env.log_file, format_args!("# Begin select queries\n"));  
+                  
+            if tags.len() == 0 {
+                return
+            } 
+            
+            let mut rng = rand::thread_rng();
+            let max_tag_pos = tags.len()-1;
+            let mut queries_time_ms: i32 = 0;
+            
+            for i in 0..queries {
+                let random_number = if max_tag_pos > 0 { rng.gen_range(0, max_tag_pos) } else { 0 };
+                let hash = tags.get(random_number).unwrap();
+                
+                let query_time = test_env.executor.select(hash);
+                
+                queries_time_ms += query_time;
+                let average_time: i32 = queries_time_ms/(i+1) as i32;
+                write_log(&mut test_env.log_file, 
+                    format_args!("Select query №{} average time: {} ms, query time: {} ms\n", 
+                    i, 
+                    average_time, 
+                    query_time));
+            }
+            write_log(&mut test_env.log_file,
+                format_args!("# Select {} queries for {} ms\n", 
+                queries, 
+                queries_time_ms));
+        },   
     }
 }
 
@@ -242,6 +292,15 @@ pub fn compute_time_diff_ms(start_time: u128, end_time: u128) -> i32 {
     return (end_time-start_time) as i32;
 }
 
+pub fn parse_query(value: String) -> String {
+    let json: serde_json::Value = serde_json::from_str(&value.to_string()).expect("Invalid query json format");
+    let result = json["results"].as_array().expect("Invalid query results param");
+    let series = result[0]["series"].as_array().expect("Invalid query series param");
+    let values = series[0]["values"].as_array().expect("Invalid query values param");
+    let value  = values[0][1].as_str().expect("Invalid query value param");
+    return value[..64].to_string();
+}
+
 fn get_database_type() -> DatabaseType {
     let mut file = File::open(CONFIG_FILE_PATH).expect("Can't open configuration file");
     let mut contents = String::new();
@@ -251,6 +310,8 @@ fn get_database_type() -> DatabaseType {
     return match json["database_type"].as_u64().expect("Invalid database_type params") {
         1 => DatabaseType::Influxdb,
         2 => DatabaseType::Mongodb,
+        3 => DatabaseType::Rethinkdb,
+        4 => DatabaseType::InfluxOnlyBench,
         _ => panic!("Invalid database_type variant")
     }
 }

@@ -1,0 +1,1527 @@
+# Begin insert series
+# Insert 100 queries for 10618 ms
+# Begin insert points
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 103 ms, query time: 96 ms
+Insert query; average time: 98 ms, query time: 84 ms
+Insert query; average time: 96 ms, query time: 84 ms
+Insert query; average time: 98 ms, query time: 168 ms
+Insert query; average time: 98 ms, query time: 48 ms
+Insert query; average time: 100 ms, query time: 180 ms
+Insert query; average time: 101 ms, query time: 108 ms
+Insert query; average time: 102 ms, query time: 108 ms
+Insert query; average time: 102 ms, query time: 96 ms
+Insert query; average time: 102 ms, query time: 96 ms
+Insert query; average time: 101 ms, query time: 96 ms
+Insert query; average time: 100 ms, query time: 84 ms
+Insert query; average time: 99 ms, query time: 96 ms
+Insert query; average time: 100 ms, query time: 120 ms
+Insert query; average time: 100 ms, query time: 107 ms
+Insert query; average time: 100 ms, query time: 108 ms
+Insert query; average time: 101 ms, query time: 132 ms
+Insert query; average time: 101 ms, query time: 120 ms
+Insert query; average time: 108 ms, query time: 191 ms
+Insert query; average time: 107 ms, query time: 84 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 83 ms
+Insert query; average time: 106 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 83 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 106 ms, query time: 95 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 157 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 83 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 138 ms
+Insert query; average time: 105 ms, query time: 95 ms
+Insert query; average time: 105 ms, query time: 95 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 60 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 120 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 144 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 156 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 120 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 120 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 132 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 120 ms
+Insert query; average time: 104 ms, query time: 156 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 60 ms
+Insert query; average time: 105 ms, query time: 191 ms
+Insert query; average time: 105 ms, query time: 120 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 72 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 120 ms
+Insert query; average time: 105 ms, query time: 132 ms
+Insert query; average time: 105 ms, query time: 114 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 83 ms
+Insert query; average time: 105 ms, query time: 109 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 156 ms
+Insert query; average time: 105 ms, query time: 95 ms
+Insert query; average time: 105 ms, query time: 120 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 61 ms
+Insert query; average time: 105 ms, query time: 61 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 83 ms
+Insert query; average time: 105 ms, query time: 95 ms
+Insert query; average time: 105 ms, query time: 107 ms
+Insert query; average time: 105 ms, query time: 95 ms
+Insert query; average time: 105 ms, query time: 97 ms
+Insert query; average time: 104 ms, query time: 131 ms
+Insert query; average time: 104 ms, query time: 95 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 95 ms
+Insert query; average time: 104 ms, query time: 94 ms
+Insert query; average time: 104 ms, query time: 103 ms
+Insert query; average time: 104 ms, query time: 144 ms
+Insert query; average time: 104 ms, query time: 68 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 156 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 109 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 107 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 84 ms
+Insert query; average time: 104 ms, query time: 96 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 104 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 72 ms
+Insert query; average time: 105 ms, query time: 132 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 144 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 120 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 240 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 156 ms
+Insert query; average time: 105 ms, query time: 60 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 156 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 131 ms
+Insert query; average time: 105 ms, query time: 132 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 84 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 96 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 131 ms
+Insert query; average time: 105 ms, query time: 108 ms
+Insert query; average time: 105 ms, query time: 157 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 132 ms
+Insert query; average time: 106 ms, query time: 107 ms
+Insert query; average time: 106 ms, query time: 119 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 107 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 59 ms
+Insert query; average time: 106 ms, query time: 107 ms
+Insert query; average time: 106 ms, query time: 109 ms
+Insert query; average time: 106 ms, query time: 59 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 97 ms
+Insert query; average time: 106 ms, query time: 133 ms
+Insert query; average time: 106 ms, query time: 121 ms
+Insert query; average time: 106 ms, query time: 59 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 60 ms
+Insert query; average time: 106 ms, query time: 120 ms
+Insert query; average time: 106 ms, query time: 95 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 107 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 72 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 232 ms
+Insert query; average time: 106 ms, query time: 132 ms
+Insert query; average time: 106 ms, query time: 372 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 96 ms
+Insert query; average time: 106 ms, query time: 72 ms
+Insert query; average time: 106 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 59 ms
+Insert query; average time: 107 ms, query time: 121 ms
+Insert query; average time: 107 ms, query time: 180 ms
+Insert query; average time: 106 ms, query time: 108 ms
+Insert query; average time: 106 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 83 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 168 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 191 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 263 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 168 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 168 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 161 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 143 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 156 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 119 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 73 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 144 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 180 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 134 ms
+Insert query; average time: 107 ms, query time: 180 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 129 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 144 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 167 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 109 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 156 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 119 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 59 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 143 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 95 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 96 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 59 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 132 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 120 ms
+Insert query; average time: 107 ms, query time: 60 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 72 ms
+Insert query; average time: 107 ms, query time: 108 ms
+Insert query; average time: 107 ms, query time: 180 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 107 ms, query time: 107 ms
+Insert query; average time: 108 ms, query time: 109 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 72 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 60 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 180 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 60 ms
+Insert query; average time: 108 ms, query time: 72 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 120 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 96 ms
+Insert query; average time: 108 ms, query time: 96 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 108 ms
+Insert query; average time: 108 ms, query time: 107 ms
+# Insert 9900 queries for 1069596 ms
+# Begin select queries
+Select query №0 average time: 116 ms, query time: 116 ms
+Select query №1 average time: 113 ms, query time: 111 ms
+Select query №2 average time: 112 ms, query time: 111 ms
+Select query №3 average time: 112 ms, query time: 110 ms
+Select query №4 average time: 112 ms, query time: 113 ms
+Select query №5 average time: 111 ms, query time: 109 ms
+Select query №6 average time: 111 ms, query time: 113 ms
+Select query №7 average time: 111 ms, query time: 111 ms
+Select query №8 average time: 111 ms, query time: 112 ms
+Select query №9 average time: 111 ms, query time: 112 ms
+Select query №10 average time: 111 ms, query time: 113 ms
+Select query №11 average time: 113 ms, query time: 127 ms
+Select query №12 average time: 112 ms, query time: 110 ms
+Select query №13 average time: 113 ms, query time: 117 ms
+Select query №14 average time: 112 ms, query time: 109 ms
+Select query №15 average time: 113 ms, query time: 114 ms
+Select query №16 average time: 112 ms, query time: 111 ms
+Select query №17 average time: 112 ms, query time: 113 ms
+Select query №18 average time: 112 ms, query time: 110 ms
+Select query №19 average time: 112 ms, query time: 111 ms
+Select query №20 average time: 112 ms, query time: 109 ms
+Select query №21 average time: 112 ms, query time: 111 ms
+Select query №22 average time: 112 ms, query time: 106 ms
+Select query №23 average time: 112 ms, query time: 114 ms
+Select query №24 average time: 112 ms, query time: 110 ms
+Select query №25 average time: 112 ms, query time: 113 ms
+Select query №26 average time: 112 ms, query time: 110 ms
+Select query №27 average time: 112 ms, query time: 113 ms
+Select query №28 average time: 112 ms, query time: 111 ms
+Select query №29 average time: 112 ms, query time: 113 ms
+Select query №30 average time: 112 ms, query time: 112 ms
+Select query №31 average time: 112 ms, query time: 110 ms
+Select query №32 average time: 111 ms, query time: 110 ms
+Select query №33 average time: 111 ms, query time: 111 ms
+Select query №34 average time: 111 ms, query time: 112 ms
+Select query №35 average time: 112 ms, query time: 114 ms
+Select query №36 average time: 111 ms, query time: 111 ms
+Select query №37 average time: 111 ms, query time: 109 ms
+Select query №38 average time: 111 ms, query time: 114 ms
+Select query №39 average time: 111 ms, query time: 111 ms
+Select query №40 average time: 111 ms, query time: 113 ms
+Select query №41 average time: 111 ms, query time: 111 ms
+Select query №42 average time: 111 ms, query time: 113 ms
+Select query №43 average time: 111 ms, query time: 111 ms
+Select query №44 average time: 111 ms, query time: 112 ms
+Select query №45 average time: 111 ms, query time: 112 ms
+Select query №46 average time: 111 ms, query time: 110 ms
+Select query №47 average time: 111 ms, query time: 112 ms
+Select query №48 average time: 111 ms, query time: 112 ms
+Select query №49 average time: 112 ms, query time: 117 ms
+Select query №50 average time: 111 ms, query time: 108 ms
+Select query №51 average time: 111 ms, query time: 113 ms
+Select query №52 average time: 111 ms, query time: 112 ms
+Select query №53 average time: 111 ms, query time: 111 ms
+Select query №54 average time: 111 ms, query time: 112 ms
+Select query №55 average time: 111 ms, query time: 110 ms
+Select query №56 average time: 111 ms, query time: 113 ms
+Select query №57 average time: 111 ms, query time: 112 ms
+Select query №58 average time: 112 ms, query time: 121 ms
+Select query №59 average time: 112 ms, query time: 113 ms
+Select query №60 average time: 112 ms, query time: 110 ms
+Select query №61 average time: 112 ms, query time: 115 ms
+Select query №62 average time: 112 ms, query time: 109 ms
+Select query №63 average time: 112 ms, query time: 112 ms
+Select query №64 average time: 112 ms, query time: 112 ms
+Select query №65 average time: 112 ms, query time: 112 ms
+Select query №66 average time: 112 ms, query time: 114 ms
+Select query №67 average time: 112 ms, query time: 112 ms
+Select query №68 average time: 112 ms, query time: 112 ms
+Select query №69 average time: 112 ms, query time: 110 ms
+Select query №70 average time: 112 ms, query time: 112 ms
+Select query №71 average time: 112 ms, query time: 112 ms
+Select query №72 average time: 112 ms, query time: 114 ms
+Select query №73 average time: 112 ms, query time: 109 ms
+Select query №74 average time: 112 ms, query time: 112 ms
+Select query №75 average time: 111 ms, query time: 109 ms
+Select query №76 average time: 112 ms, query time: 120 ms
+Select query №77 average time: 112 ms, query time: 111 ms
+Select query №78 average time: 112 ms, query time: 113 ms
+Select query №79 average time: 112 ms, query time: 109 ms
+Select query №80 average time: 112 ms, query time: 118 ms
+Select query №81 average time: 112 ms, query time: 116 ms
+Select query №82 average time: 112 ms, query time: 112 ms
+Select query №83 average time: 112 ms, query time: 112 ms
+Select query №84 average time: 112 ms, query time: 111 ms
+Select query №85 average time: 112 ms, query time: 115 ms
+Select query №86 average time: 112 ms, query time: 118 ms
+Select query №87 average time: 112 ms, query time: 111 ms
+Select query №88 average time: 112 ms, query time: 118 ms
+Select query №89 average time: 112 ms, query time: 111 ms
+Select query №90 average time: 112 ms, query time: 111 ms
+Select query №91 average time: 112 ms, query time: 121 ms
+Select query №92 average time: 112 ms, query time: 113 ms
+Select query №93 average time: 112 ms, query time: 111 ms
+Select query №94 average time: 112 ms, query time: 111 ms
+Select query №95 average time: 112 ms, query time: 112 ms
+Select query №96 average time: 112 ms, query time: 112 ms
+Select query №97 average time: 112 ms, query time: 114 ms
+Select query №98 average time: 112 ms, query time: 111 ms
+Select query №99 average time: 112 ms, query time: 112 ms
+Select query №100 average time: 112 ms, query time: 111 ms
+Select query №101 average time: 112 ms, query time: 112 ms
+Select query №102 average time: 112 ms, query time: 112 ms
+Select query №103 average time: 112 ms, query time: 114 ms
+Select query №104 average time: 112 ms, query time: 109 ms
+Select query №105 average time: 112 ms, query time: 107 ms
+Select query №106 average time: 112 ms, query time: 112 ms
+Select query №107 average time: 112 ms, query time: 108 ms
+Select query №108 average time: 112 ms, query time: 110 ms
+Select query №109 average time: 112 ms, query time: 112 ms
+Select query №110 average time: 112 ms, query time: 112 ms
+Select query №111 average time: 112 ms, query time: 111 ms
+Select query №112 average time: 112 ms, query time: 115 ms
+Select query №113 average time: 112 ms, query time: 109 ms
+Select query №114 average time: 112 ms, query time: 113 ms
+Select query №115 average time: 112 ms, query time: 112 ms
+Select query №116 average time: 112 ms, query time: 112 ms
+Select query №117 average time: 112 ms, query time: 113 ms
+Select query №118 average time: 112 ms, query time: 111 ms
+Select query №119 average time: 112 ms, query time: 112 ms
+Select query №120 average time: 112 ms, query time: 112 ms
+Select query №121 average time: 112 ms, query time: 119 ms
+Select query №122 average time: 112 ms, query time: 114 ms
+Select query №123 average time: 112 ms, query time: 110 ms
+Select query №124 average time: 112 ms, query time: 114 ms
+Select query №125 average time: 112 ms, query time: 110 ms
+Select query №126 average time: 112 ms, query time: 116 ms
+Select query №127 average time: 112 ms, query time: 112 ms
+Select query №128 average time: 112 ms, query time: 113 ms
+Select query №129 average time: 112 ms, query time: 115 ms
+Select query №130 average time: 112 ms, query time: 112 ms
+Select query №131 average time: 112 ms, query time: 112 ms
+Select query №132 average time: 112 ms, query time: 111 ms
+Select query №133 average time: 112 ms, query time: 113 ms
+Select query №134 average time: 112 ms, query time: 111 ms
+Select query №135 average time: 112 ms, query time: 113 ms
+Select query №136 average time: 112 ms, query time: 111 ms
+Select query №137 average time: 112 ms, query time: 112 ms
+Select query №138 average time: 112 ms, query time: 113 ms
+Select query №139 average time: 112 ms, query time: 125 ms
+Select query №140 average time: 112 ms, query time: 109 ms
+Select query №141 average time: 112 ms, query time: 112 ms
+Select query №142 average time: 112 ms, query time: 113 ms
+Select query №143 average time: 112 ms, query time: 112 ms
+Select query №144 average time: 112 ms, query time: 114 ms
+Select query №145 average time: 112 ms, query time: 113 ms
+Select query №146 average time: 112 ms, query time: 112 ms
+Select query №147 average time: 112 ms, query time: 112 ms
+Select query №148 average time: 112 ms, query time: 111 ms
+Select query №149 average time: 112 ms, query time: 109 ms
+Select query №150 average time: 112 ms, query time: 111 ms
+Select query №151 average time: 112 ms, query time: 112 ms
+Select query №152 average time: 112 ms, query time: 114 ms
+Select query №153 average time: 112 ms, query time: 111 ms
+Select query №154 average time: 112 ms, query time: 113 ms
+Select query №155 average time: 112 ms, query time: 112 ms
+Select query №156 average time: 112 ms, query time: 110 ms
+Select query №157 average time: 112 ms, query time: 111 ms
+Select query №158 average time: 112 ms, query time: 111 ms
+Select query №159 average time: 112 ms, query time: 111 ms
+Select query №160 average time: 112 ms, query time: 111 ms
+Select query №161 average time: 112 ms, query time: 112 ms
+Select query №162 average time: 112 ms, query time: 112 ms
+Select query №163 average time: 112 ms, query time: 109 ms
+Select query №164 average time: 112 ms, query time: 111 ms
+Select query №165 average time: 112 ms, query time: 113 ms
+Select query №166 average time: 112 ms, query time: 109 ms
+Select query №167 average time: 112 ms, query time: 111 ms
+Select query №168 average time: 112 ms, query time: 112 ms
+Select query №169 average time: 112 ms, query time: 113 ms
+Select query №170 average time: 112 ms, query time: 115 ms
+Select query №171 average time: 112 ms, query time: 108 ms
+Select query №172 average time: 112 ms, query time: 112 ms
+Select query №173 average time: 112 ms, query time: 113 ms
+Select query №174 average time: 112 ms, query time: 112 ms
+Select query №175 average time: 112 ms, query time: 115 ms
+Select query №176 average time: 112 ms, query time: 113 ms
+Select query №177 average time: 112 ms, query time: 112 ms
+Select query №178 average time: 112 ms, query time: 115 ms
+Select query №179 average time: 112 ms, query time: 111 ms
+Select query №180 average time: 112 ms, query time: 111 ms
+Select query №181 average time: 112 ms, query time: 113 ms
+Select query №182 average time: 112 ms, query time: 112 ms
+Select query №183 average time: 112 ms, query time: 113 ms
+Select query №184 average time: 112 ms, query time: 113 ms
+Select query №185 average time: 112 ms, query time: 109 ms
+Select query №186 average time: 112 ms, query time: 112 ms
+Select query №187 average time: 112 ms, query time: 113 ms
+Select query №188 average time: 112 ms, query time: 111 ms
+Select query №189 average time: 112 ms, query time: 112 ms
+Select query №190 average time: 112 ms, query time: 112 ms
+Select query №191 average time: 112 ms, query time: 111 ms
+Select query №192 average time: 112 ms, query time: 112 ms
+Select query №193 average time: 112 ms, query time: 110 ms
+Select query №194 average time: 112 ms, query time: 112 ms
+Select query №195 average time: 112 ms, query time: 110 ms
+Select query №196 average time: 112 ms, query time: 109 ms
+Select query №197 average time: 112 ms, query time: 110 ms
+Select query №198 average time: 112 ms, query time: 112 ms
+Select query №199 average time: 112 ms, query time: 112 ms
+Select query №200 average time: 112 ms, query time: 112 ms
+Select query №201 average time: 112 ms, query time: 111 ms
+Select query №202 average time: 112 ms, query time: 121 ms
+Select query №203 average time: 112 ms, query time: 111 ms
+Select query №204 average time: 112 ms, query time: 109 ms
+Select query №205 average time: 112 ms, query time: 112 ms
+Select query №206 average time: 112 ms, query time: 111 ms
+Select query №207 average time: 112 ms, query time: 111 ms
+Select query №208 average time: 112 ms, query time: 109 ms
+Select query №209 average time: 112 ms, query time: 113 ms
+Select query №210 average time: 112 ms, query time: 111 ms
+Select query №211 average time: 112 ms, query time: 119 ms
+Select query №212 average time: 112 ms, query time: 112 ms
+Select query №213 average time: 112 ms, query time: 113 ms
+Select query №214 average time: 112 ms, query time: 110 ms
+Select query №215 average time: 112 ms, query time: 113 ms
+Select query №216 average time: 112 ms, query time: 111 ms
+Select query №217 average time: 112 ms, query time: 113 ms
+Select query №218 average time: 112 ms, query time: 111 ms
+Select query №219 average time: 112 ms, query time: 112 ms
+Select query №220 average time: 112 ms, query time: 111 ms
+Select query №221 average time: 112 ms, query time: 115 ms
+Select query №222 average time: 112 ms, query time: 111 ms
+Select query №223 average time: 112 ms, query time: 111 ms
+Select query №224 average time: 112 ms, query time: 113 ms
+Select query №225 average time: 112 ms, query time: 108 ms
+Select query №226 average time: 112 ms, query time: 113 ms
+Select query №227 average time: 112 ms, query time: 110 ms
+Select query №228 average time: 112 ms, query time: 112 ms
+Select query №229 average time: 112 ms, query time: 118 ms
+Select query №230 average time: 112 ms, query time: 110 ms
+Select query №231 average time: 112 ms, query time: 114 ms
+Select query №232 average time: 112 ms, query time: 110 ms
+Select query №233 average time: 112 ms, query time: 111 ms
+Select query №234 average time: 112 ms, query time: 112 ms
+Select query №235 average time: 112 ms, query time: 115 ms
+Select query №236 average time: 112 ms, query time: 108 ms
+Select query №237 average time: 112 ms, query time: 115 ms
+Select query №238 average time: 112 ms, query time: 114 ms
+Select query №239 average time: 112 ms, query time: 112 ms
+Select query №240 average time: 112 ms, query time: 112 ms
+Select query №241 average time: 112 ms, query time: 111 ms
+Select query №242 average time: 112 ms, query time: 112 ms
+Select query №243 average time: 112 ms, query time: 111 ms
+Select query №244 average time: 112 ms, query time: 108 ms
+Select query №245 average time: 112 ms, query time: 111 ms
+Select query №246 average time: 112 ms, query time: 111 ms
+Select query №247 average time: 112 ms, query time: 116 ms
+Select query №248 average time: 112 ms, query time: 113 ms
+Select query №249 average time: 112 ms, query time: 111 ms
+Select query №250 average time: 112 ms, query time: 112 ms
+Select query №251 average time: 112 ms, query time: 111 ms
+Select query №252 average time: 112 ms, query time: 109 ms
+Select query №253 average time: 112 ms, query time: 113 ms
+Select query №254 average time: 112 ms, query time: 110 ms
+Select query №255 average time: 112 ms, query time: 112 ms
+Select query №256 average time: 112 ms, query time: 117 ms
+Select query №257 average time: 112 ms, query time: 111 ms
+Select query №258 average time: 112 ms, query time: 113 ms
+Select query №259 average time: 112 ms, query time: 111 ms
+Select query №260 average time: 112 ms, query time: 110 ms
+Select query №261 average time: 112 ms, query time: 107 ms
+Select query №262 average time: 112 ms, query time: 109 ms
+Select query №263 average time: 112 ms, query time: 112 ms
+Select query №264 average time: 112 ms, query time: 109 ms
+Select query №265 average time: 112 ms, query time: 129 ms
+Select query №266 average time: 112 ms, query time: 109 ms
+Select query №267 average time: 112 ms, query time: 112 ms
+Select query №268 average time: 112 ms, query time: 111 ms
+Select query №269 average time: 112 ms, query time: 112 ms
+Select query №270 average time: 112 ms, query time: 106 ms
+Select query №271 average time: 112 ms, query time: 111 ms
+Select query №272 average time: 112 ms, query time: 112 ms
+Select query №273 average time: 112 ms, query time: 111 ms
+Select query №274 average time: 112 ms, query time: 122 ms
+Select query №275 average time: 112 ms, query time: 111 ms
+Select query №276 average time: 112 ms, query time: 114 ms
+Select query №277 average time: 112 ms, query time: 110 ms
+Select query №278 average time: 112 ms, query time: 112 ms
+Select query №279 average time: 112 ms, query time: 111 ms
+Select query №280 average time: 112 ms, query time: 112 ms
+Select query №281 average time: 112 ms, query time: 111 ms
+Select query №282 average time: 112 ms, query time: 113 ms
+Select query №283 average time: 112 ms, query time: 115 ms
+Select query №284 average time: 112 ms, query time: 112 ms
+Select query №285 average time: 112 ms, query time: 112 ms
+Select query №286 average time: 112 ms, query time: 110 ms
+Select query №287 average time: 112 ms, query time: 109 ms
+Select query №288 average time: 112 ms, query time: 112 ms
+Select query №289 average time: 112 ms, query time: 109 ms
+Select query №290 average time: 112 ms, query time: 110 ms
+Select query №291 average time: 112 ms, query time: 112 ms
+Select query №292 average time: 112 ms, query time: 117 ms
+Select query №293 average time: 112 ms, query time: 112 ms
+Select query №294 average time: 112 ms, query time: 114 ms
+Select query №295 average time: 112 ms, query time: 113 ms
+Select query №296 average time: 112 ms, query time: 111 ms
+Select query №297 average time: 112 ms, query time: 112 ms
+Select query №298 average time: 112 ms, query time: 114 ms
+Select query №299 average time: 112 ms, query time: 112 ms
+Select query №300 average time: 112 ms, query time: 113 ms
+Select query №301 average time: 112 ms, query time: 115 ms
+Select query №302 average time: 112 ms, query time: 113 ms
+Select query №303 average time: 112 ms, query time: 115 ms
+Select query №304 average time: 112 ms, query time: 111 ms
+Select query №305 average time: 112 ms, query time: 112 ms
+Select query №306 average time: 112 ms, query time: 111 ms
+Select query №307 average time: 112 ms, query time: 112 ms
+Select query №308 average time: 112 ms, query time: 111 ms
+Select query №309 average time: 112 ms, query time: 113 ms
+Select query №310 average time: 112 ms, query time: 110 ms
+Select query №311 average time: 112 ms, query time: 115 ms
+Select query №312 average time: 112 ms, query time: 111 ms
+Select query №313 average time: 112 ms, query time: 111 ms
+Select query №314 average time: 112 ms, query time: 118 ms
+Select query №315 average time: 112 ms, query time: 110 ms
+Select query №316 average time: 112 ms, query time: 111 ms
+Select query №317 average time: 112 ms, query time: 112 ms
+Select query №318 average time: 112 ms, query time: 112 ms
+Select query №319 average time: 112 ms, query time: 117 ms
+Select query №320 average time: 112 ms, query time: 111 ms
+Select query №321 average time: 112 ms, query time: 113 ms
+Select query №322 average time: 112 ms, query time: 112 ms
+Select query №323 average time: 112 ms, query time: 115 ms
+Select query №324 average time: 112 ms, query time: 114 ms
+Select query №325 average time: 112 ms, query time: 111 ms
+Select query №326 average time: 112 ms, query time: 111 ms
+Select query №327 average time: 112 ms, query time: 112 ms
+Select query №328 average time: 112 ms, query time: 111 ms
+Select query №329 average time: 112 ms, query time: 114 ms
+Select query №330 average time: 112 ms, query time: 111 ms
+Select query №331 average time: 112 ms, query time: 112 ms
+Select query №332 average time: 112 ms, query time: 116 ms
+Select query №333 average time: 112 ms, query time: 112 ms
+Select query №334 average time: 112 ms, query time: 111 ms
+Select query №335 average time: 112 ms, query time: 113 ms
+Select query №336 average time: 112 ms, query time: 112 ms
+Select query №337 average time: 112 ms, query time: 112 ms
+Select query №338 average time: 112 ms, query time: 115 ms
+Select query №339 average time: 112 ms, query time: 113 ms
+Select query №340 average time: 112 ms, query time: 116 ms
+Select query №341 average time: 112 ms, query time: 109 ms
+Select query №342 average time: 112 ms, query time: 111 ms
+Select query №343 average time: 112 ms, query time: 112 ms
+Select query №344 average time: 112 ms, query time: 112 ms
+Select query №345 average time: 112 ms, query time: 113 ms
+Select query №346 average time: 112 ms, query time: 113 ms
+Select query №347 average time: 112 ms, query time: 108 ms
+Select query №348 average time: 112 ms, query time: 110 ms
+Select query №349 average time: 112 ms, query time: 113 ms
+Select query №350 average time: 112 ms, query time: 113 ms
+Select query №351 average time: 112 ms, query time: 110 ms
+Select query №352 average time: 112 ms, query time: 114 ms
+Select query №353 average time: 112 ms, query time: 108 ms
+Select query №354 average time: 112 ms, query time: 112 ms
+Select query №355 average time: 112 ms, query time: 113 ms
+Select query №356 average time: 112 ms, query time: 106 ms
+Select query №357 average time: 112 ms, query time: 111 ms
+Select query №358 average time: 112 ms, query time: 113 ms
+Select query №359 average time: 112 ms, query time: 115 ms
+Select query №360 average time: 112 ms, query time: 111 ms
+Select query №361 average time: 112 ms, query time: 111 ms
+Select query №362 average time: 112 ms, query time: 113 ms
+Select query №363 average time: 112 ms, query time: 112 ms
+Select query №364 average time: 112 ms, query time: 112 ms
+Select query №365 average time: 112 ms, query time: 114 ms
+Select query №366 average time: 112 ms, query time: 109 ms
+Select query №367 average time: 112 ms, query time: 113 ms
+Select query №368 average time: 112 ms, query time: 113 ms
+Select query №369 average time: 112 ms, query time: 113 ms
+Select query №370 average time: 112 ms, query time: 112 ms
+Select query №371 average time: 112 ms, query time: 111 ms
+Select query №372 average time: 112 ms, query time: 109 ms
+Select query №373 average time: 112 ms, query time: 111 ms
+Select query №374 average time: 112 ms, query time: 111 ms
+Select query №375 average time: 112 ms, query time: 111 ms
+Select query №376 average time: 112 ms, query time: 112 ms
+Select query №377 average time: 112 ms, query time: 115 ms
+Select query №378 average time: 112 ms, query time: 108 ms
+Select query №379 average time: 112 ms, query time: 113 ms
+Select query №380 average time: 112 ms, query time: 113 ms
+Select query №381 average time: 112 ms, query time: 112 ms
+Select query №382 average time: 112 ms, query time: 114 ms
+Select query №383 average time: 112 ms, query time: 111 ms
+Select query №384 average time: 112 ms, query time: 113 ms
+Select query №385 average time: 112 ms, query time: 116 ms
+Select query №386 average time: 112 ms, query time: 109 ms
+Select query №387 average time: 112 ms, query time: 112 ms
+Select query №388 average time: 112 ms, query time: 112 ms
+Select query №389 average time: 112 ms, query time: 113 ms
+Select query №390 average time: 112 ms, query time: 109 ms
+Select query №391 average time: 112 ms, query time: 112 ms
+Select query №392 average time: 112 ms, query time: 113 ms
+Select query №393 average time: 112 ms, query time: 111 ms
+Select query №394 average time: 112 ms, query time: 112 ms
+Select query №395 average time: 112 ms, query time: 111 ms
+Select query №396 average time: 112 ms, query time: 110 ms
+Select query №397 average time: 112 ms, query time: 112 ms
+Select query №398 average time: 112 ms, query time: 112 ms
+Select query №399 average time: 112 ms, query time: 111 ms
+Select query №400 average time: 112 ms, query time: 111 ms
+Select query №401 average time: 112 ms, query time: 113 ms
+Select query №402 average time: 112 ms, query time: 111 ms
+Select query №403 average time: 112 ms, query time: 111 ms
+Select query №404 average time: 112 ms, query time: 112 ms
+Select query №405 average time: 112 ms, query time: 113 ms
+Select query №406 average time: 112 ms, query time: 110 ms
+Select query №407 average time: 112 ms, query time: 116 ms
+Select query №408 average time: 112 ms, query time: 109 ms
+Select query №409 average time: 112 ms, query time: 112 ms
+Select query №410 average time: 112 ms, query time: 113 ms
+Select query №411 average time: 112 ms, query time: 111 ms
+Select query №412 average time: 112 ms, query time: 111 ms
+Select query №413 average time: 112 ms, query time: 111 ms
+Select query №414 average time: 112 ms, query time: 110 ms
+Select query №415 average time: 112 ms, query time: 112 ms
+Select query №416 average time: 112 ms, query time: 112 ms
+Select query №417 average time: 112 ms, query time: 112 ms
+Select query №418 average time: 112 ms, query time: 112 ms
+Select query №419 average time: 112 ms, query time: 114 ms
+Select query №420 average time: 112 ms, query time: 110 ms
+Select query №421 average time: 112 ms, query time: 112 ms
+Select query №422 average time: 112 ms, query time: 108 ms
+Select query №423 average time: 112 ms, query time: 119 ms
+Select query №424 average time: 112 ms, query time: 113 ms
+Select query №425 average time: 112 ms, query time: 112 ms
+Select query №426 average time: 112 ms, query time: 112 ms
+Select query №427 average time: 112 ms, query time: 112 ms
+Select query №428 average time: 112 ms, query time: 112 ms
+Select query №429 average time: 112 ms, query time: 112 ms
+Select query №430 average time: 112 ms, query time: 113 ms
+Select query №431 average time: 112 ms, query time: 110 ms
+Select query №432 average time: 112 ms, query time: 113 ms
+Select query №433 average time: 112 ms, query time: 112 ms
+Select query №434 average time: 112 ms, query time: 112 ms
+Select query №435 average time: 112 ms, query time: 112 ms
+Select query №436 average time: 112 ms, query time: 112 ms
+Select query №437 average time: 112 ms, query time: 108 ms
+Select query №438 average time: 112 ms, query time: 112 ms
+Select query №439 average time: 112 ms, query time: 113 ms
+Select query №440 average time: 112 ms, query time: 112 ms
+Select query №441 average time: 112 ms, query time: 114 ms
+Select query №442 average time: 112 ms, query time: 109 ms
+Select query №443 average time: 112 ms, query time: 112 ms
+Select query №444 average time: 112 ms, query time: 111 ms
+Select query №445 average time: 112 ms, query time: 112 ms
+Select query №446 average time: 112 ms, query time: 112 ms
+Select query №447 average time: 112 ms, query time: 113 ms
+Select query №448 average time: 112 ms, query time: 111 ms
+Select query №449 average time: 112 ms, query time: 115 ms
+Select query №450 average time: 112 ms, query time: 113 ms
+Select query №451 average time: 112 ms, query time: 112 ms
+Select query №452 average time: 112 ms, query time: 116 ms
+Select query №453 average time: 112 ms, query time: 114 ms
+Select query №454 average time: 112 ms, query time: 112 ms
+Select query №455 average time: 112 ms, query time: 110 ms
+Select query №456 average time: 112 ms, query time: 112 ms
+Select query №457 average time: 112 ms, query time: 113 ms
+Select query №458 average time: 112 ms, query time: 112 ms
+Select query №459 average time: 112 ms, query time: 113 ms
+Select query №460 average time: 112 ms, query time: 110 ms
+Select query №461 average time: 112 ms, query time: 114 ms
+Select query №462 average time: 112 ms, query time: 110 ms
+Select query №463 average time: 112 ms, query time: 112 ms
+Select query №464 average time: 112 ms, query time: 111 ms
+Select query №465 average time: 112 ms, query time: 114 ms
+Select query №466 average time: 112 ms, query time: 110 ms
+Select query №467 average time: 112 ms, query time: 111 ms
+Select query №468 average time: 112 ms, query time: 112 ms
+Select query №469 average time: 112 ms, query time: 112 ms
+Select query №470 average time: 112 ms, query time: 110 ms
+Select query №471 average time: 112 ms, query time: 112 ms
+Select query №472 average time: 112 ms, query time: 115 ms
+Select query №473 average time: 112 ms, query time: 110 ms
+Select query №474 average time: 112 ms, query time: 113 ms
+Select query №475 average time: 112 ms, query time: 110 ms
+Select query №476 average time: 112 ms, query time: 112 ms
+Select query №477 average time: 112 ms, query time: 112 ms
+Select query №478 average time: 112 ms, query time: 112 ms
+Select query №479 average time: 112 ms, query time: 110 ms
+Select query №480 average time: 112 ms, query time: 110 ms
+Select query №481 average time: 112 ms, query time: 113 ms
+Select query №482 average time: 112 ms, query time: 110 ms
+Select query №483 average time: 112 ms, query time: 112 ms
+Select query №484 average time: 112 ms, query time: 113 ms
+Select query №485 average time: 112 ms, query time: 113 ms
+Select query №486 average time: 112 ms, query time: 111 ms
+Select query №487 average time: 112 ms, query time: 112 ms
+Select query №488 average time: 112 ms, query time: 112 ms
+Select query №489 average time: 112 ms, query time: 112 ms
+Select query №490 average time: 112 ms, query time: 116 ms
+Select query №491 average time: 112 ms, query time: 112 ms
+Select query №492 average time: 112 ms, query time: 111 ms
+Select query №493 average time: 112 ms, query time: 114 ms
+Select query №494 average time: 112 ms, query time: 110 ms
+Select query №495 average time: 112 ms, query time: 112 ms
+Select query №496 average time: 112 ms, query time: 113 ms
+Select query №497 average time: 112 ms, query time: 111 ms
+Select query №498 average time: 112 ms, query time: 115 ms
+Select query №499 average time: 112 ms, query time: 109 ms
+Select query №500 average time: 112 ms, query time: 115 ms
+Select query №501 average time: 112 ms, query time: 109 ms
+Select query №502 average time: 112 ms, query time: 112 ms
+Select query №503 average time: 112 ms, query time: 113 ms
+Select query №504 average time: 112 ms, query time: 113 ms
+Select query №505 average time: 112 ms, query time: 110 ms
+Select query №506 average time: 112 ms, query time: 111 ms
+Select query №507 average time: 112 ms, query time: 111 ms
+Select query №508 average time: 112 ms, query time: 114 ms
+Select query №509 average time: 112 ms, query time: 113 ms
+Select query №510 average time: 112 ms, query time: 111 ms
+Select query №511 average time: 112 ms, query time: 111 ms
+Select query №512 average time: 112 ms, query time: 112 ms
+Select query №513 average time: 112 ms, query time: 112 ms
+Select query №514 average time: 112 ms, query time: 112 ms
+Select query №515 average time: 112 ms, query time: 112 ms
+Select query №516 average time: 112 ms, query time: 112 ms
+Select query №517 average time: 112 ms, query time: 113 ms
+Select query №518 average time: 112 ms, query time: 111 ms
+Select query №519 average time: 112 ms, query time: 112 ms
+Select query №520 average time: 112 ms, query time: 112 ms
+Select query №521 average time: 112 ms, query time: 112 ms
+Select query №522 average time: 112 ms, query time: 111 ms
+Select query №523 average time: 112 ms, query time: 112 ms
+Select query №524 average time: 112 ms, query time: 112 ms
+Select query №525 average time: 112 ms, query time: 111 ms
+Select query №526 average time: 112 ms, query time: 112 ms
+Select query №527 average time: 112 ms, query time: 114 ms
+Select query №528 average time: 112 ms, query time: 110 ms
+Select query №529 average time: 112 ms, query time: 113 ms
+Select query №530 average time: 112 ms, query time: 110 ms
+Select query №531 average time: 112 ms, query time: 111 ms
+Select query №532 average time: 112 ms, query time: 115 ms
+Select query №533 average time: 112 ms, query time: 111 ms
+Select query №534 average time: 112 ms, query time: 110 ms
+Select query №535 average time: 112 ms, query time: 112 ms
+Select query №536 average time: 112 ms, query time: 113 ms
+Select query №537 average time: 112 ms, query time: 111 ms
+Select query №538 average time: 112 ms, query time: 111 ms
+Select query №539 average time: 112 ms, query time: 113 ms
+Select query №540 average time: 112 ms, query time: 111 ms
+Select query №541 average time: 112 ms, query time: 112 ms
+Select query №542 average time: 112 ms, query time: 112 ms
+Select query №543 average time: 112 ms, query time: 112 ms
+Select query №544 average time: 112 ms, query time: 113 ms
+Select query №545 average time: 112 ms, query time: 111 ms
+Select query №546 average time: 112 ms, query time: 113 ms
+Select query №547 average time: 112 ms, query time: 111 ms
+Select query №548 average time: 112 ms, query time: 113 ms
+Select query №549 average time: 112 ms, query time: 110 ms
+Select query №550 average time: 112 ms, query time: 113 ms
+Select query №551 average time: 112 ms, query time: 112 ms
+Select query №552 average time: 112 ms, query time: 112 ms
+Select query №553 average time: 112 ms, query time: 116 ms
+Select query №554 average time: 112 ms, query time: 112 ms
+Select query №555 average time: 112 ms, query time: 113 ms
+Select query №556 average time: 112 ms, query time: 112 ms
+Select query №557 average time: 112 ms, query time: 111 ms
+Select query №558 average time: 112 ms, query time: 112 ms
+Select query №559 average time: 112 ms, query time: 112 ms
+Select query №560 average time: 112 ms, query time: 112 ms
+Select query №561 average time: 112 ms, query time: 113 ms
+Select query №562 average time: 112 ms, query time: 110 ms
+Select query №563 average time: 112 ms, query time: 113 ms
+Select query №564 average time: 112 ms, query time: 113 ms
+Select query №565 average time: 112 ms, query time: 112 ms
+Select query №566 average time: 112 ms, query time: 111 ms
+Select query №567 average time: 112 ms, query time: 112 ms
+Select query №568 average time: 112 ms, query time: 113 ms
+Select query №569 average time: 112 ms, query time: 111 ms
+Select query №570 average time: 112 ms, query time: 114 ms
+Select query №571 average time: 112 ms, query time: 109 ms
+Select query №572 average time: 112 ms, query time: 116 ms
+Select query №573 average time: 112 ms, query time: 110 ms
+Select query №574 average time: 112 ms, query time: 113 ms
+Select query №575 average time: 112 ms, query time: 110 ms
+Select query №576 average time: 112 ms, query time: 112 ms
+Select query №577 average time: 112 ms, query time: 109 ms
+Select query №578 average time: 112 ms, query time: 110 ms
+Select query №579 average time: 112 ms, query time: 112 ms
+Select query №580 average time: 112 ms, query time: 111 ms
+Select query №581 average time: 112 ms, query time: 113 ms
+Select query №582 average time: 112 ms, query time: 112 ms
+Select query №583 average time: 112 ms, query time: 112 ms
+Select query №584 average time: 112 ms, query time: 114 ms
+Select query №585 average time: 112 ms, query time: 110 ms
+Select query №586 average time: 112 ms, query time: 115 ms
+Select query №587 average time: 112 ms, query time: 113 ms
+Select query №588 average time: 112 ms, query time: 112 ms
+Select query №589 average time: 112 ms, query time: 112 ms
+Select query №590 average time: 112 ms, query time: 112 ms
+Select query №591 average time: 112 ms, query time: 113 ms
+Select query №592 average time: 112 ms, query time: 112 ms
+Select query №593 average time: 112 ms, query time: 111 ms
+Select query №594 average time: 112 ms, query time: 111 ms
+Select query №595 average time: 112 ms, query time: 111 ms
+Select query №596 average time: 112 ms, query time: 111 ms
+Select query №597 average time: 112 ms, query time: 114 ms
+Select query №598 average time: 112 ms, query time: 111 ms
+Select query №599 average time: 112 ms, query time: 112 ms
+Select query №600 average time: 112 ms, query time: 113 ms
+Select query №601 average time: 112 ms, query time: 111 ms
+Select query №602 average time: 112 ms, query time: 111 ms
+Select query №603 average time: 112 ms, query time: 112 ms
+Select query №604 average time: 112 ms, query time: 111 ms
+Select query №605 average time: 112 ms, query time: 112 ms
+Select query №606 average time: 112 ms, query time: 112 ms
+Select query №607 average time: 112 ms, query time: 113 ms
+Select query №608 average time: 112 ms, query time: 112 ms
+Select query №609 average time: 112 ms, query time: 111 ms
+Select query №610 average time: 112 ms, query time: 113 ms
+Select query №611 average time: 112 ms, query time: 112 ms
+Select query №612 average time: 112 ms, query time: 111 ms
+Select query №613 average time: 112 ms, query time: 111 ms
+Select query №614 average time: 112 ms, query time: 113 ms
+Select query №615 average time: 112 ms, query time: 111 ms
+Select query №616 average time: 112 ms, query time: 107 ms
+Select query №617 average time: 112 ms, query time: 110 ms
+Select query №618 average time: 112 ms, query time: 112 ms
+Select query №619 average time: 112 ms, query time: 112 ms
+Select query №620 average time: 112 ms, query time: 111 ms
+Select query №621 average time: 112 ms, query time: 112 ms
+Select query №622 average time: 112 ms, query time: 112 ms
+Select query №623 average time: 112 ms, query time: 112 ms
+Select query №624 average time: 112 ms, query time: 112 ms
+Select query №625 average time: 112 ms, query time: 115 ms
+Select query №626 average time: 112 ms, query time: 117 ms
+Select query №627 average time: 112 ms, query time: 113 ms
+Select query №628 average time: 112 ms, query time: 113 ms
+Select query №629 average time: 112 ms, query time: 115 ms
+Select query №630 average time: 112 ms, query time: 112 ms
+Select query №631 average time: 112 ms, query time: 110 ms
+Select query №632 average time: 112 ms, query time: 112 ms
+Select query №633 average time: 112 ms, query time: 112 ms
+Select query №634 average time: 112 ms, query time: 111 ms
+Select query №635 average time: 112 ms, query time: 113 ms
+Select query №636 average time: 112 ms, query time: 111 ms
+Select query №637 average time: 112 ms, query time: 112 ms
+Select query №638 average time: 112 ms, query time: 112 ms
+Select query №639 average time: 112 ms, query time: 110 ms
+Select query №640 average time: 112 ms, query time: 113 ms
+Select query №641 average time: 112 ms, query time: 110 ms
+Select query №642 average time: 112 ms, query time: 114 ms
+Select query №643 average time: 112 ms, query time: 109 ms
+Select query №644 average time: 112 ms, query time: 112 ms
+Select query №645 average time: 112 ms, query time: 112 ms
+Select query №646 average time: 112 ms, query time: 114 ms
+Select query №647 average time: 112 ms, query time: 109 ms
+Select query №648 average time: 112 ms, query time: 109 ms
+Select query №649 average time: 112 ms, query time: 112 ms
+Select query №650 average time: 112 ms, query time: 112 ms
+Select query №651 average time: 112 ms, query time: 113 ms
+Select query №652 average time: 112 ms, query time: 110 ms
+Select query №653 average time: 112 ms, query time: 112 ms
+Select query №654 average time: 112 ms, query time: 112 ms
+Select query №655 average time: 112 ms, query time: 114 ms
+Select query №656 average time: 112 ms, query time: 109 ms
+Select query №657 average time: 112 ms, query time: 113 ms
+Select query №658 average time: 112 ms, query time: 112 ms
+Select query №659 average time: 112 ms, query time: 112 ms
+Select query №660 average time: 112 ms, query time: 112 ms
+Select query №661 average time: 112 ms, query time: 110 ms
+Select query №662 average time: 112 ms, query time: 110 ms
+Select query №663 average time: 112 ms, query time: 112 ms
+Select query №664 average time: 112 ms, query time: 115 ms
+Select query №665 average time: 112 ms, query time: 115 ms
+Select query №666 average time: 112 ms, query time: 109 ms
+Select query №667 average time: 112 ms, query time: 111 ms
+Select query №668 average time: 112 ms, query time: 113 ms
+Select query №669 average time: 112 ms, query time: 111 ms
+Select query №670 average time: 112 ms, query time: 109 ms
+Select query №671 average time: 112 ms, query time: 111 ms
+Select query №672 average time: 112 ms, query time: 114 ms
+Select query №673 average time: 112 ms, query time: 111 ms
+Select query №674 average time: 112 ms, query time: 111 ms
+Select query №675 average time: 112 ms, query time: 112 ms
+Select query №676 average time: 112 ms, query time: 111 ms
+Select query №677 average time: 112 ms, query time: 112 ms
+Select query №678 average time: 112 ms, query time: 115 ms
+Select query №679 average time: 112 ms, query time: 117 ms
+Select query №680 average time: 112 ms, query time: 113 ms
+Select query №681 average time: 112 ms, query time: 115 ms
+Select query №682 average time: 112 ms, query time: 107 ms
+Select query №683 average time: 112 ms, query time: 113 ms
+Select query №684 average time: 112 ms, query time: 113 ms
+Select query №685 average time: 112 ms, query time: 111 ms
+Select query №686 average time: 112 ms, query time: 112 ms
+Select query №687 average time: 112 ms, query time: 113 ms
+Select query №688 average time: 112 ms, query time: 112 ms
+Select query №689 average time: 112 ms, query time: 111 ms
+Select query №690 average time: 112 ms, query time: 115 ms
+Select query №691 average time: 112 ms, query time: 112 ms
+Select query №692 average time: 112 ms, query time: 112 ms
+Select query №693 average time: 112 ms, query time: 110 ms
+Select query №694 average time: 112 ms, query time: 111 ms
+Select query №695 average time: 112 ms, query time: 112 ms
+Select query №696 average time: 112 ms, query time: 113 ms
+Select query №697 average time: 112 ms, query time: 108 ms
+Select query №698 average time: 112 ms, query time: 113 ms
+Select query №699 average time: 112 ms, query time: 113 ms
+Select query №700 average time: 112 ms, query time: 109 ms
+Select query №701 average time: 112 ms, query time: 110 ms
+Select query №702 average time: 112 ms, query time: 111 ms
+Select query №703 average time: 112 ms, query time: 112 ms
+Select query №704 average time: 112 ms, query time: 112 ms
+Select query №705 average time: 112 ms, query time: 113 ms
+Select query №706 average time: 112 ms, query time: 118 ms
+Select query №707 average time: 112 ms, query time: 110 ms
+Select query №708 average time: 112 ms, query time: 112 ms
+Select query №709 average time: 112 ms, query time: 111 ms
+Select query №710 average time: 112 ms, query time: 110 ms
+Select query №711 average time: 112 ms, query time: 110 ms
+Select query №712 average time: 112 ms, query time: 112 ms
+Select query №713 average time: 112 ms, query time: 112 ms
+Select query №714 average time: 112 ms, query time: 111 ms
+Select query №715 average time: 112 ms, query time: 122 ms
+Select query №716 average time: 112 ms, query time: 112 ms
+Select query №717 average time: 112 ms, query time: 112 ms
+Select query №718 average time: 112 ms, query time: 113 ms
+Select query №719 average time: 112 ms, query time: 112 ms
+Select query №720 average time: 112 ms, query time: 111 ms
+Select query №721 average time: 112 ms, query time: 112 ms
+Select query №722 average time: 112 ms, query time: 113 ms
+Select query №723 average time: 112 ms, query time: 109 ms
+Select query №724 average time: 112 ms, query time: 119 ms
+Select query №725 average time: 112 ms, query time: 109 ms
+Select query №726 average time: 112 ms, query time: 113 ms
+Select query №727 average time: 112 ms, query time: 111 ms
+Select query №728 average time: 112 ms, query time: 112 ms
+Select query №729 average time: 112 ms, query time: 111 ms
+Select query №730 average time: 112 ms, query time: 113 ms
+Select query №731 average time: 112 ms, query time: 110 ms
+Select query №732 average time: 112 ms, query time: 110 ms
+Select query №733 average time: 112 ms, query time: 121 ms
+Select query №734 average time: 112 ms, query time: 111 ms
+Select query №735 average time: 112 ms, query time: 112 ms
+Select query №736 average time: 112 ms, query time: 112 ms
+Select query №737 average time: 112 ms, query time: 114 ms
+Select query №738 average time: 112 ms, query time: 112 ms
+Select query №739 average time: 112 ms, query time: 112 ms
+Select query №740 average time: 112 ms, query time: 111 ms
+Select query №741 average time: 112 ms, query time: 111 ms
+Select query №742 average time: 112 ms, query time: 113 ms
+Select query №743 average time: 112 ms, query time: 109 ms
+Select query №744 average time: 112 ms, query time: 112 ms
+Select query №745 average time: 112 ms, query time: 113 ms
+Select query №746 average time: 112 ms, query time: 112 ms
+Select query №747 average time: 112 ms, query time: 113 ms
+Select query №748 average time: 112 ms, query time: 123 ms
+Select query №749 average time: 112 ms, query time: 112 ms
+Select query №750 average time: 112 ms, query time: 111 ms
+Select query №751 average time: 112 ms, query time: 113 ms
+Select query №752 average time: 112 ms, query time: 110 ms
+Select query №753 average time: 112 ms, query time: 112 ms
+Select query №754 average time: 112 ms, query time: 112 ms
+Select query №755 average time: 112 ms, query time: 114 ms
+Select query №756 average time: 112 ms, query time: 112 ms
+Select query №757 average time: 112 ms, query time: 118 ms
+Select query №758 average time: 112 ms, query time: 110 ms
+Select query №759 average time: 112 ms, query time: 113 ms
+Select query №760 average time: 112 ms, query time: 110 ms
+Select query №761 average time: 112 ms, query time: 112 ms
+Select query №762 average time: 112 ms, query time: 111 ms
+Select query №763 average time: 112 ms, query time: 113 ms
+Select query №764 average time: 112 ms, query time: 114 ms
+Select query №765 average time: 112 ms, query time: 111 ms
+Select query №766 average time: 112 ms, query time: 114 ms
+Select query №767 average time: 112 ms, query time: 112 ms
+Select query №768 average time: 112 ms, query time: 112 ms
+Select query №769 average time: 112 ms, query time: 108 ms
+Select query №770 average time: 112 ms, query time: 112 ms
+Select query №771 average time: 112 ms, query time: 112 ms
+Select query №772 average time: 112 ms, query time: 113 ms
+Select query №773 average time: 112 ms, query time: 112 ms
+Select query №774 average time: 112 ms, query time: 113 ms
+Select query №775 average time: 112 ms, query time: 112 ms
+Select query №776 average time: 112 ms, query time: 113 ms
+Select query №777 average time: 112 ms, query time: 114 ms
+Select query №778 average time: 112 ms, query time: 112 ms
+Select query №779 average time: 112 ms, query time: 112 ms
+Select query №780 average time: 112 ms, query time: 114 ms
+Select query №781 average time: 112 ms, query time: 111 ms
+Select query №782 average time: 112 ms, query time: 109 ms
+Select query №783 average time: 112 ms, query time: 112 ms
+Select query №784 average time: 112 ms, query time: 111 ms
+Select query №785 average time: 112 ms, query time: 113 ms
+Select query №786 average time: 112 ms, query time: 112 ms
+Select query №787 average time: 112 ms, query time: 115 ms
+Select query №788 average time: 112 ms, query time: 110 ms
+Select query №789 average time: 112 ms, query time: 117 ms
+Select query №790 average time: 112 ms, query time: 115 ms
+Select query №791 average time: 112 ms, query time: 110 ms
+Select query №792 average time: 112 ms, query time: 112 ms
+Select query №793 average time: 112 ms, query time: 113 ms
+Select query №794 average time: 112 ms, query time: 110 ms
+Select query №795 average time: 112 ms, query time: 114 ms
+Select query №796 average time: 112 ms, query time: 112 ms
+Select query №797 average time: 112 ms, query time: 111 ms
+Select query №798 average time: 112 ms, query time: 120 ms
+Select query №799 average time: 112 ms, query time: 112 ms
+Select query №800 average time: 112 ms, query time: 113 ms
+Select query №801 average time: 112 ms, query time: 112 ms
+Select query №802 average time: 112 ms, query time: 110 ms
+Select query №803 average time: 112 ms, query time: 113 ms
+Select query №804 average time: 112 ms, query time: 112 ms
+Select query №805 average time: 112 ms, query time: 111 ms
+Select query №806 average time: 112 ms, query time: 114 ms
+Select query №807 average time: 112 ms, query time: 116 ms
+Select query №808 average time: 112 ms, query time: 111 ms
+Select query №809 average time: 112 ms, query time: 112 ms
+Select query №810 average time: 112 ms, query time: 111 ms
+Select query №811 average time: 112 ms, query time: 109 ms
+Select query №812 average time: 112 ms, query time: 111 ms
+Select query №813 average time: 112 ms, query time: 113 ms
+Select query №814 average time: 112 ms, query time: 111 ms
+Select query №815 average time: 112 ms, query time: 108 ms
+Select query №816 average time: 112 ms, query time: 119 ms
+Select query №817 average time: 112 ms, query time: 112 ms
+Select query №818 average time: 112 ms, query time: 112 ms
+Select query №819 average time: 112 ms, query time: 110 ms
+Select query №820 average time: 112 ms, query time: 113 ms
+Select query №821 average time: 112 ms, query time: 110 ms
+Select query №822 average time: 112 ms, query time: 112 ms
+Select query №823 average time: 112 ms, query time: 113 ms
+Select query №824 average time: 112 ms, query time: 112 ms
+Select query №825 average time: 112 ms, query time: 114 ms
+Select query №826 average time: 112 ms, query time: 110 ms
+Select query №827 average time: 112 ms, query time: 113 ms
+Select query №828 average time: 112 ms, query time: 112 ms
+Select query №829 average time: 112 ms, query time: 109 ms
+Select query №830 average time: 112 ms, query time: 110 ms
+Select query №831 average time: 112 ms, query time: 112 ms
+Select query №832 average time: 112 ms, query time: 110 ms
+Select query №833 average time: 112 ms, query time: 112 ms
+Select query №834 average time: 112 ms, query time: 121 ms
+Select query №835 average time: 112 ms, query time: 110 ms
+Select query №836 average time: 112 ms, query time: 112 ms
+Select query №837 average time: 112 ms, query time: 113 ms
+Select query №838 average time: 112 ms, query time: 110 ms
+Select query №839 average time: 112 ms, query time: 112 ms
+Select query №840 average time: 112 ms, query time: 111 ms
+Select query №841 average time: 112 ms, query time: 110 ms
+Select query №842 average time: 112 ms, query time: 111 ms
+Select query №843 average time: 112 ms, query time: 116 ms
+Select query №844 average time: 112 ms, query time: 113 ms
+Select query №845 average time: 112 ms, query time: 111 ms
+Select query №846 average time: 112 ms, query time: 113 ms
+Select query №847 average time: 112 ms, query time: 110 ms
+Select query №848 average time: 112 ms, query time: 113 ms
+Select query №849 average time: 112 ms, query time: 112 ms
+Select query №850 average time: 112 ms, query time: 112 ms
+Select query №851 average time: 112 ms, query time: 118 ms
+Select query №852 average time: 112 ms, query time: 111 ms
+Select query №853 average time: 112 ms, query time: 110 ms
+Select query №854 average time: 112 ms, query time: 111 ms
+Select query №855 average time: 112 ms, query time: 113 ms
+Select query №856 average time: 112 ms, query time: 112 ms
+Select query №857 average time: 112 ms, query time: 112 ms
+Select query №858 average time: 112 ms, query time: 112 ms
+Select query №859 average time: 112 ms, query time: 108 ms
+Select query №860 average time: 112 ms, query time: 111 ms
+Select query №861 average time: 112 ms, query time: 112 ms
+Select query №862 average time: 112 ms, query time: 112 ms
+Select query №863 average time: 112 ms, query time: 112 ms
+Select query №864 average time: 112 ms, query time: 111 ms
+Select query №865 average time: 112 ms, query time: 110 ms
+Select query №866 average time: 112 ms, query time: 110 ms
+Select query №867 average time: 112 ms, query time: 112 ms
+Select query №868 average time: 112 ms, query time: 109 ms
+Select query №869 average time: 112 ms, query time: 112 ms
+Select query №870 average time: 112 ms, query time: 113 ms
+Select query №871 average time: 112 ms, query time: 110 ms
+Select query №872 average time: 112 ms, query time: 111 ms
+Select query №873 average time: 112 ms, query time: 111 ms
+Select query №874 average time: 112 ms, query time: 112 ms
+Select query №875 average time: 112 ms, query time: 112 ms
+Select query №876 average time: 112 ms, query time: 113 ms
+Select query №877 average time: 112 ms, query time: 110 ms
+Select query №878 average time: 112 ms, query time: 110 ms
+Select query №879 average time: 112 ms, query time: 117 ms
+Select query №880 average time: 112 ms, query time: 111 ms
+Select query №881 average time: 112 ms, query time: 112 ms
+Select query №882 average time: 112 ms, query time: 111 ms
+Select query №883 average time: 112 ms, query time: 111 ms
+Select query №884 average time: 112 ms, query time: 117 ms
+Select query №885 average time: 112 ms, query time: 110 ms
+Select query №886 average time: 112 ms, query time: 111 ms
+Select query №887 average time: 112 ms, query time: 113 ms
+Select query №888 average time: 112 ms, query time: 107 ms
+Select query №889 average time: 112 ms, query time: 112 ms
+Select query №890 average time: 112 ms, query time: 115 ms
+Select query №891 average time: 112 ms, query time: 112 ms
+Select query №892 average time: 112 ms, query time: 110 ms
+Select query №893 average time: 112 ms, query time: 110 ms
+Select query №894 average time: 112 ms, query time: 113 ms
+Select query №895 average time: 112 ms, query time: 108 ms
+Select query №896 average time: 112 ms, query time: 112 ms
+Select query №897 average time: 112 ms, query time: 114 ms
+Select query №898 average time: 112 ms, query time: 109 ms
+Select query №899 average time: 112 ms, query time: 113 ms
+Select query №900 average time: 112 ms, query time: 112 ms
+Select query №901 average time: 112 ms, query time: 112 ms
+Select query №902 average time: 112 ms, query time: 112 ms
+Select query №903 average time: 112 ms, query time: 111 ms
+Select query №904 average time: 112 ms, query time: 122 ms
+Select query №905 average time: 112 ms, query time: 110 ms
+Select query №906 average time: 112 ms, query time: 108 ms
+Select query №907 average time: 112 ms, query time: 112 ms
+Select query №908 average time: 112 ms, query time: 112 ms
+Select query №909 average time: 112 ms, query time: 113 ms
+Select query №910 average time: 112 ms, query time: 110 ms
+Select query №911 average time: 112 ms, query time: 112 ms
+Select query №912 average time: 112 ms, query time: 113 ms
+Select query №913 average time: 112 ms, query time: 112 ms
+Select query №914 average time: 112 ms, query time: 115 ms
+Select query №915 average time: 112 ms, query time: 108 ms
+Select query №916 average time: 112 ms, query time: 113 ms
+Select query №917 average time: 112 ms, query time: 112 ms
+Select query №918 average time: 112 ms, query time: 114 ms
+Select query №919 average time: 112 ms, query time: 109 ms
+Select query №920 average time: 112 ms, query time: 112 ms
+Select query №921 average time: 112 ms, query time: 113 ms
+Select query №922 average time: 112 ms, query time: 111 ms
+Select query №923 average time: 112 ms, query time: 113 ms
+Select query №924 average time: 112 ms, query time: 110 ms
+Select query №925 average time: 112 ms, query time: 113 ms
+Select query №926 average time: 112 ms, query time: 110 ms
+Select query №927 average time: 112 ms, query time: 113 ms
+Select query №928 average time: 112 ms, query time: 110 ms
+Select query №929 average time: 112 ms, query time: 113 ms
+Select query №930 average time: 112 ms, query time: 112 ms
+Select query №931 average time: 112 ms, query time: 116 ms
+Select query №932 average time: 112 ms, query time: 113 ms
+Select query №933 average time: 112 ms, query time: 110 ms
+Select query №934 average time: 112 ms, query time: 113 ms
+Select query №935 average time: 112 ms, query time: 113 ms
+Select query №936 average time: 112 ms, query time: 109 ms
+Select query №937 average time: 112 ms, query time: 110 ms
+Select query №938 average time: 112 ms, query time: 111 ms
+Select query №939 average time: 112 ms, query time: 114 ms
+Select query №940 average time: 112 ms, query time: 120 ms
+Select query №941 average time: 112 ms, query time: 111 ms
+Select query №942 average time: 112 ms, query time: 112 ms
+Select query №943 average time: 112 ms, query time: 114 ms
+Select query №944 average time: 112 ms, query time: 111 ms
+Select query №945 average time: 112 ms, query time: 111 ms
+Select query №946 average time: 112 ms, query time: 112 ms
+Select query №947 average time: 112 ms, query time: 111 ms
+Select query №948 average time: 112 ms, query time: 112 ms
+Select query №949 average time: 112 ms, query time: 116 ms
+Select query №950 average time: 112 ms, query time: 113 ms
+Select query №951 average time: 112 ms, query time: 111 ms
+Select query №952 average time: 112 ms, query time: 112 ms
+Select query №953 average time: 112 ms, query time: 112 ms
+Select query №954 average time: 112 ms, query time: 111 ms
+Select query №955 average time: 112 ms, query time: 111 ms
+Select query №956 average time: 112 ms, query time: 109 ms
+Select query №957 average time: 112 ms, query time: 113 ms
+Select query №958 average time: 112 ms, query time: 114 ms
+Select query №959 average time: 112 ms, query time: 109 ms
+Select query №960 average time: 112 ms, query time: 113 ms
+Select query №961 average time: 112 ms, query time: 111 ms
+Select query №962 average time: 112 ms, query time: 113 ms
+Select query №963 average time: 112 ms, query time: 111 ms
+Select query №964 average time: 112 ms, query time: 112 ms
+Select query №965 average time: 112 ms, query time: 111 ms
+Select query №966 average time: 112 ms, query time: 113 ms
+Select query №967 average time: 112 ms, query time: 122 ms
+Select query №968 average time: 112 ms, query time: 110 ms
+Select query №969 average time: 112 ms, query time: 112 ms
+Select query №970 average time: 112 ms, query time: 111 ms
+Select query №971 average time: 112 ms, query time: 112 ms
+Select query №972 average time: 112 ms, query time: 113 ms
+Select query №973 average time: 112 ms, query time: 110 ms
+Select query №974 average time: 112 ms, query time: 110 ms
+Select query №975 average time: 112 ms, query time: 112 ms
+Select query №976 average time: 112 ms, query time: 115 ms
+Select query №977 average time: 112 ms, query time: 112 ms
+Select query №978 average time: 112 ms, query time: 114 ms
+Select query №979 average time: 112 ms, query time: 112 ms
+Select query №980 average time: 112 ms, query time: 111 ms
+Select query №981 average time: 112 ms, query time: 115 ms
+Select query №982 average time: 112 ms, query time: 112 ms
+Select query №983 average time: 112 ms, query time: 110 ms
+Select query №984 average time: 112 ms, query time: 114 ms
+Select query №985 average time: 112 ms, query time: 114 ms
+Select query №986 average time: 112 ms, query time: 115 ms
+Select query №987 average time: 112 ms, query time: 109 ms
+Select query №988 average time: 112 ms, query time: 112 ms
+Select query №989 average time: 112 ms, query time: 115 ms
+Select query №990 average time: 112 ms, query time: 112 ms
+Select query №991 average time: 112 ms, query time: 109 ms
+Select query №992 average time: 112 ms, query time: 111 ms
+Select query №993 average time: 112 ms, query time: 111 ms
+Select query №994 average time: 112 ms, query time: 112 ms
+Select query №995 average time: 112 ms, query time: 114 ms
+Select query №996 average time: 112 ms, query time: 109 ms
+Select query №997 average time: 112 ms, query time: 109 ms
+Select query №998 average time: 112 ms, query time: 115 ms
+Select query №999 average time: 112 ms, query time: 112 ms
+# Select 1000 queries for 112060 ms, 100 entities per query

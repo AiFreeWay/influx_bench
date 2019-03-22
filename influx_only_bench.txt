@@ -1,0 +1,12 @@
+# Begin select queries
+Select query №0 average time: 33 ms, query time: 33 ms
+Select query №1 average time: 17 ms, query time: 2 ms
+Select query №2 average time: 14 ms, query time: 8 ms
+Select query №3 average time: 15 ms, query time: 20 ms
+Select query №4 average time: 13 ms, query time: 2 ms
+Select query №5 average time: 13 ms, query time: 18 ms
+Select query №6 average time: 13 ms, query time: 10 ms
+Select query №7 average time: 12 ms, query time: 5 ms
+Select query №8 average time: 11 ms, query time: 4 ms
+Select query №9 average time: 10 ms, query time: 1 ms
+# Select 10 queries for 103 ms

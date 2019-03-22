@@ -1,7 +1,6 @@
 use {compute_time_diff_ms, Executor, get_current_time};
 use mongodb::{Client, ThreadedClient};
 use mongodb::coll::Collection;
-use mongodb::coll::options::IndexOptions;
 use mongodb::db::ThreadedDatabase;
 
 
@@ -12,18 +11,23 @@ static FIELD_TWO: &str = "to";
 static FIELD_THREE: &str = "balance";
 
 pub struct ExecutorMongo {
-    collection: Collection
+    collection: Collection,
+    indexed: bool
 }
 
 impl ExecutorMongo {
     pub fn new() -> ExecutorMongo {
         let client = Client::connect("localhost", 27017)
             .ok()
-            .expect("Failed to initialize client.");
-        let collection = client.db("bench").collection(COLLECTION);  
+            .expect("Failed to initialize client");
+            
+        let database = client.db("bench");
+        database.auth("admin", "password").expect("Excect auth");
+        let collection = database.collection(COLLECTION); 
         
         return ExecutorMongo {
-            collection: collection
+            collection: collection,
+            indexed: false
         }
     }
 }
@@ -42,13 +46,15 @@ impl Executor for ExecutorMongo {
             FIELD_THREE: random_number as u64
         };
         
-        let mut index = IndexOptions::new();
-        index.name = Some(hash);
-        
         let start_time = get_current_time();
-        self.collection.insert_one(doc.clone(), None).ok().expect("Failed to insert document.");
-        self.collection.create_index(doc, Some(index));
+        self.collection.insert_one(doc.clone(), None).ok().expect("Failed to execute insert");
         let end_time = get_current_time();
+        
+        if !self.indexed {
+            let doc = doc! { TAG: 1 };
+            self.collection.create_index(doc, None);
+            self.indexed = true;
+        }
         
         return compute_time_diff_ms(start_time, end_time);
     }
@@ -59,7 +65,7 @@ impl Executor for ExecutorMongo {
         };
         
         let start_time = get_current_time();
-        self.collection.find(Some(doc), None).ok().expect("Failed to execute find.");
+        self.collection.find(Some(doc), None).ok().expect("Failed to execute find");
         let end_time = get_current_time();
         
         return compute_time_diff_ms(start_time, end_time);
